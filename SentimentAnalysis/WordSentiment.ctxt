@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordSentiment()
+comment0.text=\r\n\ Creates\ a\ new\ WordSentiment\ object.\r\n
+comment1.params=
+comment1.target=int\ getCount()
+comment1.text=\r\n\ @return\ count\r\n
+comment2.params=count
+comment2.target=void\ setCount(int)
+comment2.text=\r\n\ @param\ count\ the\ value\ to\ set\r\n\ set\ count\r\n
+comment3.params=accumulator
+comment3.target=void\ setAccumulator(int)
+comment3.text=\r\n\ @param\ accumulator\ the\ value\ to\ set\r\n\ set\ accumulator\r\n
+comment4.params=
+comment4.target=int\ getSumOfReviewScores()
+comment4.text=\r\n\ @return\ accumulator\r\n
+comment5.params=
+comment5.target=double\ getSentimentScore()
+comment5.text=\r\n\ @return\ sentimentscore\r\n
+comment6.params=s
+comment6.target=void\ recordOccurrence(int)
+comment6.text=\r\n\ @param\ s\ the\ score\ of\ occurrence\r\n\ record\ the\ occurance\r\n
+comment7.params=s
+comment7.target=int\ getRecord(int)
+comment7.text=\r\n\ @param\ s\ the\ score\ of\ occurrence\r\n\ @return\ the\ record\ the\ occurrence\r\n
+numComments=8

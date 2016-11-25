@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SmileyFace()
+comment0.text=\r\n\ Creates\ a\ new\ SmileyFace\ object.\r\n
+comment1.params=
+comment1.target=double\ getSentimentScore()
+comment1.text=\r\n\ @return\ the\ current\ score\ of\ sentiment\r\n
+comment2.params=s
+comment2.target=void\ setSentimentScore(double)
+comment2.text=\r\n\ @param\ s\ judge\ the\ score\ to\ determine\ which\ face\ is\ shown.\r\n\ set\ the\ current\ score\ of\ sentiment\r\n
+comment3.params=
+comment3.target=boolean\ isPositive()
+comment3.text=\r\n\ @return\ current\ score\ is\ positive\r\n
+comment4.params=
+comment4.target=boolean\ isNegative()
+comment4.text=\r\n\ @return\ current\ score\ is\ negative\r\n
+comment5.params=
+comment5.target=boolean\ isNeutral()
+comment5.text=\r\n\ @return\ current\ score\ is\ neutral\r\n
+numComments=6

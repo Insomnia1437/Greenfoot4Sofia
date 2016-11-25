@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SentimentAnalyzer()
+comment0.text=\r\n\ Creates\ a\ new\ SentimentAnaylzer\ object.\r\n
+comment1.params=
+comment1.target=SmileyFace\ getFace()
+comment1.text=\r\n\ @return\ object\ of\ SmileyFace\r\n
+comment2.params=
+comment2.target=sofia.graphics.TextShape\ getText()
+comment2.text=\r\n\ @return\ object\ of\ TextSahpe\r\n
+comment3.params=input
+comment3.target=void\ loadReviews(java.util.Scanner)
+comment3.text=\r\n\ @param\ input\ A\ scanner\r\n\ load\ Reviews\ from\ a\ Scanner\r\n
+comment4.params=
+comment4.target=void\ loadReviews()
+comment4.text=\r\n\ load\ reviews\ from\ default\ file\r\n
+comment5.params=word
+comment5.target=double\ sentimentOfWord(java.lang.String)
+comment5.text=\r\n\ @param\ word\ the\ word\ to\ be\ assessed\ for\ giving\ a\ score\r\n\ @return\ Sentiment\ score\ of\ a\ word\r\n
+comment6.params=text
+comment6.target=double\ sentimentOf(java.lang.String)
+comment6.text=\r\n\ @param\ text\ a\ text\ contains\ some\ words\r\n\ @return\ Sentiment\ score\ of\ a\ text\r\n
+comment7.params=text
+comment7.target=void\ show(java.lang.String)
+comment7.text=\r\n\ @param\ text\ the\ text\ is\ to\ be\ calculated\ for\ scores.\r\n\ show\ text\ and\ smileyface\ on\ the\ world\r\n
+numComments=8
