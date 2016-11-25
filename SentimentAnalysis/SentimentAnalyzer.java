@@ -79,17 +79,12 @@ public class SentimentAnalyzer extends World
                     if (map.containsKey(word))
                     {
                         WordSentiment ws = map.get(word);
-                        ws.setCount(ws.getCount() + 1);
-                        ws.setAccumulator(ws.getSumOfReviewScores() 
-                            + scoresperline);
                         ws.recordOccurrence(scoresperline);
                         map.put(word, ws);
                     }
                     else 
                     {
                         WordSentiment ws = new WordSentiment();
-                        ws.setCount(1);
-                        ws.setAccumulator(scoresperline);
                         ws.recordOccurrence(scoresperline);
                         map.put(word, ws);
                     }
@@ -122,17 +117,12 @@ public class SentimentAnalyzer extends World
                     if (map.containsKey(word))
                     {
                         WordSentiment ws = map.get(word);
-                        ws.setCount(ws.getCount() + 1);
-                        ws.setAccumulator(ws.getSumOfReviewScores() 
-                            + scoresperline);
                         ws.recordOccurrence(scoresperline);
                         map.put(word, ws);
                     }
                     else 
                     {
                         WordSentiment ws = new WordSentiment();
-                        ws.setCount(1);
-                        ws.setAccumulator(scoresperline);
                         ws.recordOccurrence(scoresperline);
                         map.put(word, ws);
                     }

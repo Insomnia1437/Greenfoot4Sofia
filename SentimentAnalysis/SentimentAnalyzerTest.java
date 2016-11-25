@@ -46,7 +46,8 @@ public class SentimentAnalyzerTest extends TestCase
      */
     public void testloadReviews()
     {
-        Scanner s = new Scanner("4 The film has the courage of its convictions and excellent performances on its side .	"); 
+        Scanner s = new Scanner("4 The film has the courage of its convictions "
+            + "and excellent performances on its side ."); 
         sa.loadReviews(s);
         assertEquals(4.0, sa.sentimentOfWord("excellent"), 0.1);
     }

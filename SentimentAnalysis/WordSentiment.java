@@ -41,29 +41,24 @@ public class WordSentiment
      */
     public int getCount()
     {
+        count = 0;
+        for (int i = 0; i < 5; i++)
+        {
+            count += occurrence[i];
+        }
         return count;
     }
-    /**
-     * @param count the value to set
-     * set count
-     */
-    public void setCount(int count)
-    {
-        this.count = count;
-    }
-    /**
-     * @param accumulator the value to set
-     * set accumulator
-     */
-    public void setAccumulator(int accumulator)
-    {
-        this.accumulator = accumulator;
-    }
+
     /**
      * @return accumulator
      */
     public int getSumOfReviewScores()
     {
+        accumulator = 0;
+        for (int i = 0; i < 5; i++)
+        {
+            accumulator += i * occurrence[i];
+        }
         return accumulator;
     }
     /**
@@ -71,6 +66,8 @@ public class WordSentiment
      */
     public double getSentimentScore()
     {
+        count = getCount();
+        accumulator = getSumOfReviewScores();
         if (count == 0)
         {
             score = 2.0;
@@ -88,6 +85,7 @@ public class WordSentiment
     public void recordOccurrence(int s)
     {
         occurrence[s] += 1;
+
     }
     /**
      * @param s the score of occurrence

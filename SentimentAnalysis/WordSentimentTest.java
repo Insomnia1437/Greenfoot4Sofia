@@ -47,35 +47,24 @@ public class WordSentimentTest extends TestCase
     {
         assertEquals(0, ws.getCount(), 0.1);
     }
-    /**
-     * @test setCount
-     */
-    public void testsetCount()
-    {
-        ws.setCount(11);
-        assertEquals(11, ws.getCount(), 0.1);
-    }
+
     /**
      * @test getSumOfReviewScores
      */
     public void testgetSumOfReviewScores()
     {
-        assertEquals(0, ws.getSumOfReviewScores(), 0.1);
+        ws.recordOccurrence(3);
+        assertEquals(3, ws.getSumOfReviewScores(), 0.1);
     }
-    /**
-     * @test setAccumulator
-     */
-    public void testsetAccumulator()
-    {
-        ws.setAccumulator(13);
-        assertEquals(13, ws.getSumOfReviewScores(), 0.1);
-    }
+
     /**
      * @test getSentimentScore
      */
     public void testgetSentimentScore()
     {
         assertEquals(2.0, ws.getSentimentScore(), 0.1);
+        ws.recordOccurrence(3);
+        assertEquals(3.0, ws.getSentimentScore(), 0.1);
     }
     
     /**
